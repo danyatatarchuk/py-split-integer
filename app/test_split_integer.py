@@ -6,7 +6,6 @@ def test_sum_of_the_parts_should_be_equal_to_value() -> None:
     assert sum(result) == 10
 
 
-
 def test_should_split_into_equal_parts_when_value_divisible_by_parts() -> None:
     result = split_integer(12, 4)
     assert result == [3, 3, 3, 3]
